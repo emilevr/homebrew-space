@@ -1,4 +1,6 @@
-# Emilevr Space
+# Homebrew tap for space CLI
+
+This repository contains Homebrew fomulae for the space CLI, a fast disk space analyzer and cleaner powered by Rust!
 
 ## How do I install these formulae?
 
