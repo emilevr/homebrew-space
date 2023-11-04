@@ -4,7 +4,6 @@ class Space < Formula
   url "https://github.com/emilevr/space/archive/refs/tags/0.1.6.tar.gz"
   sha256 "df839731ffd6904df06c347e56f5b6052cbe0f42a0746939bcf93da90f702531"
   license "MIT"
-  revision 1
 
   livecheck do
     url :stable
