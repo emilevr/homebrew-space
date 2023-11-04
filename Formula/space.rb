@@ -10,6 +10,12 @@ class Space < Formula
     strategy :github_latest
   end
 
+  bottle do
+    root_url "https://github.com/emilevr/homebrew-space/releases/download/space-0.1.6"
+    sha256 cellar: :any_skip_relocation, ventura:      "7b8b5abda1485437e74899fbc1201ce90c1f4e02d91c3fb7b0d4db6ca87e8f95"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "2b1fded1caa38dba91321e20cf301b9e8aebd0790d916b144fcbea4a6c5bdbc5"
+  end
+
   depends_on "rust" => :build
 
   def install
