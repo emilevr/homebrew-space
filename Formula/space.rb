@@ -1,5 +1,5 @@
 class Space < Formula
-  desc "A fast disk space analyzer and cleaner powered by Rust!"
+  desc "Analyze and clean your disk space (powered by Rust)"
   homepage "https://github.com/emilevr/space"
   url "https://github.com/emilevr/space/archive/refs/tags/0.1.6.tar.gz"
   sha256 "df839731ffd6904df06c347e56f5b6052cbe0f42a0746939bcf93da90f702531"
