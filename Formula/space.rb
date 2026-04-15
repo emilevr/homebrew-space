@@ -10,11 +10,6 @@ class Space < Formula
     strategy :github_latest
   end
 
-  bottle do
-    root_url "https://github.com/emilevr/homebrew-space/releases/download/space-2.0.0"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "ebf34367f36a72a3f1d5e9ed94a885905cee155f6ada3775899797890d7829f6"
-  end
-
   depends_on "rust" => :build
 
   def install
